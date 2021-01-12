@@ -1,0 +1,1 @@
+Get-Cluster | Format-List *

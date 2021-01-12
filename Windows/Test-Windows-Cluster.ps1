@@ -1,0 +1,1 @@
+Test-Cluster -Node SQLAG01 , SQLAG02
