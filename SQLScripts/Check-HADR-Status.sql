@@ -1,0 +1,5 @@
+SELECT
+	CASE
+		WHEN SERVERPROPERTY ('IsHadrEnabled') = 1 THEN 'Enabled'
+		WHEN SERVERPROPERTY ('IsHadrEnabled') = 0 THEN 'DISABLED'
+	END AS 'Is HADR Enabled'
